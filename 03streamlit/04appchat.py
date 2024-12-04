@@ -10,7 +10,7 @@ with st.sidebar:
 
     st.title("Usando la API de OpenAI")
 
-    image = Image.open('openai.jpg')
+    image = Image.open('03streamlit/openai.jpg')
     st.image(image, caption = 'OpenAI')
 
     st.markdown(
